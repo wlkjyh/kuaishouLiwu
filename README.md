@@ -3,7 +3,13 @@
 
 
 
-如何运行？
 
-安装selenium、requests
+安装相关库
+``` conda install requests selenium
 
+
+修改直播间地址
+``` url = "https://live.kuaishou.com/u/KPL704668133"
+
+启动程序
+``` python start.py
